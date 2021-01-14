@@ -8,13 +8,16 @@
 
 
 ## Project Overview <a name="project"></a>
-The objective of this web application is to create a data dashboard to track key metrics and trends using real data from World Bank website. This web application has been deployed on Heroku using Flask (see the link below).
+This portfolio exercise was originally used as a take-home assignment provided by Starbucks for their job candidates. This exercise involves an advertising promotion that was tested to see if it would bring more customers to purchase a specific product priced at $10. It costs the company 0.15 to send out each promotion. Ideally, we want to limit that promotion only to those that are most receptive to the promotion.
 
-[World Bank Web-Application](https://web-app-worldbank.herokuapp.com/)
+Our promotion strategy will be evaluated on 2 key metrics
+
+Incremental Response Rate (IRR)
+Net Incremental Revenue (NIR)
 
 ## File Description <a name="file"></a>
 
-* **starbucks.html**: This folder contains data from [World Bank](https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS?view=chart) in csv format.
+* **starbucks.html**: 
        
 * **starbucks.ipynb**: This folder contains the package files.
 
@@ -34,13 +37,13 @@ The objective of this web application is to create a data dashboard to track key
 ## Screenshots <a name="image"></a>
 
 ***Screenshot 1: Plot for Hypothesis Test on Evaluation Metric-***
-![Screenshot 1](https://github.com/rahul385/Starbucks-Project/blob/master/Visualizations/Evaluation_Metric-Hypothesis_Test.png)
+![Screenshot 1](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Evaluation_Metric-Hypothesis_Test.png)
 
 ***Screenshot 2: Plot for Hypothesis Test on Evaluation Metric***
-![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/master/Visualizations/Invariant_Metric-Hypothesis_Test.png)
+![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Invariant_Metric-Hypothesis_Test.png)
 
 ***Screenshot 3: Feature Importance***
-![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/master/Visualizations/Feature_Importance.png)
+![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Feature_Importance.png)
 
 
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
