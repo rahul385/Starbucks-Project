@@ -10,40 +10,48 @@
 ## Project Overview <a name="project"></a>
 This portfolio exercise was originally used as a take-home assignment provided by Starbucks for their job candidates. This exercise involves an advertising promotion that was tested to see if it would bring more customers to purchase a specific product priced at $10. It costs the company 0.15 to send out each promotion. Ideally, we want to limit that promotion only to those that are most receptive to the promotion.
 
-Our promotion strategy will be evaluated on 2 key metrics
+The objective is to devise a promotion strategy in order to maximize the following metrics.
 
-Incremental Response Rate (IRR)
-Net Incremental Revenue (NIR)
+* Incremental Response Rate (IRR)
+IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion. Mathematically, it's the ratio of the number of purchasers in the promotion group to the total number of customers in the purchasers group (treatment) minus the ratio of the number of purchasers in the non-promotional group to the total number of customers in the non-promotional group (control).
+
+* Net Incremental Revenue (NIR)
+NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number of purchasers that received the promotion minus 0.15 times the number of promotions sent out, minus 10 times the number of purchasers who were not given the promotion.
 
 ## File Description <a name="file"></a>
 
-* **starbucks.html**: 
+* **starbucks.html**: Profiling report of the dataset used for data exploration.
        
-* **starbucks.ipynb**: This folder contains the package files.
+* **starbucks.ipynb**: Jupyter notebook that contains all code, visualizations and machine learning model.
 
 * **Visualizations**: This folder contains the package files.
-    * `Evaluation_Metric-Hypothesis_Test.png` : Python module for rendering html pages.
-    * `Invariant_Metric-Hypothesis_Test.png` : Folder containing images.
-    * `Feature_Importance.png` : Package initilization file.
+    * `Invariant_Metric-Hypothesis_Test.png` : Plot for hypothesis test on invariant metric
+    * `Evaluation_Metric-Hypothesis_Test.png` : Plot for hypothesis test on evaluation metric
+    * `Feature_Importance.png` : Feature importance of the model
     
-* **Take_Home_Assignment.docx**: Folder contaning a python module.
+* **Take_Home_Assignment.docx**: Full description of problem statement what Starbucks provides to their candidates.
 
-* **test_results.py**: file that specifies the commands that are executed by the app on startup.
+* **test_results.py**: Python module that evaluates the model and compares accuracy of the model with a baseline IRR and NIR provided by Starbucks.
 
-* **Data**: This folder contains the plots generated using Plotly. These images are also displayed in the web application deployed on Heroku. 
-    * `Test.csv`
-    * `training.csv`
+* **Test.csv**: Test dataset to evaluate the model accuracy.
+
+* **training.csv**: Training dataset to train the model. 
+
 
 ## Screenshots <a name="image"></a>
 
-***Screenshot 1: Plot for Hypothesis Test on Evaluation Metric-***
-![Screenshot 1](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Evaluation_Metric-Hypothesis_Test.png)
+***Screenshot 1: Plot for Hypothesis Test on Invariant Metric***
 
-***Screenshot 2: Plot for Hypothesis Test on Evaluation Metric***
 ![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Invariant_Metric-Hypothesis_Test.png)
 
-***Screenshot 3: Feature Importance***
-![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Feature_Importance.png)
+***Screenshot 2: Plot for Hypothesis Test on Evaluation Metric-***
+
+![Screenshot 2](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Evaluation_Metric-Hypothesis_Test.png)
+
+
+***Screenshot 3: Feature Importance of the model***
+
+![Screenshot 3](https://github.com/rahul385/Starbucks-Project/blob/main/Visualizations/Feature_Importance.png)
 
 
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
