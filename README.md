@@ -1,6 +1,6 @@
 # Starbucks-Project
 
-<p align = 'center'><img src = 'logo.jpg', height=350, width =420></p>
+<p align = 'center'><img src = 'logo.jpg', height=300, width =620></p>
 
 ### Table of Contents
 1. [Installation](#installation)
@@ -26,7 +26,7 @@ NIR depicts how much is made (or lost) by sending out the promotion. Mathematica
 
 ## File Description <a name="file"></a>
     
-* **starbucks.ipynb**: The jupyter notebook [starbucks.ipynb](https://github.com/rahul385/Starbucks-Project/blob/master/starbucks.ipynb) includes data exploration, code, machine learning model and visualizations. I used the following classification algorithms to train the model and compared their accuracy.
+* **starbucks.ipynb**: The jupyter notebook [starbucks.ipynb](https://github.com/rahul385/Starbucks-Project/blob/master/Starbucks.ipynb) includes data exploration, code, machine learning model and visualizations. I used the following classification algorithms to train the model and compared their accuracy.
 
 * **starbucks.html**: Profiling report of the dataset used for data exploration.
 
