@@ -1,14 +1,20 @@
 # Starbucks-Project
 
-### Table of Contents
-1. [Project Overview](#project)
-2. [File Description](#file)
-3. [Visualizations](#image)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
+<p align = 'center'><img src = 'logo.jpg', height=350, width =420></p>
 
+### Table of Contents
+1. [Installation](#installation)
+2. [Project Overview](#project)
+3. [File Description](#file)
+4. [Visualizations](#image)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Installation <a name="installation"></a>
+
+All the librarires required to run the code are mentioned in [requirements.txt](https://github.com/rahul385/Starbucks-Project/blob/master/requirements.txt). To install Run: `pip install -r requirements.txt`
 
 ## Project Overview <a name="project"></a>
-This portfolio exercise was originally used as a take-home assignment provided by Starbucks for their job candidates. This exercise involves an advertising promotion that was tested to see if it would bring more customers to purchase a specific product priced at $10. It costs the company 0.15 to send out each promotion. Ideally, we want to limit that promotion only to those that are most receptive to the promotion.
+This project was originally used as a take-home assignment provided by Starbucks for their job candidates. This exercise involves an advertising promotion that was tested to see if it would bring more customers to purchase a specific product priced at $10. It costs the company 0.15 to send out each promotion. Ideally, we want to limit that promotion only to those that are most receptive to the promotion.
 
 The objective is to devise a promotion strategy in order to maximize the following metrics.
 
@@ -19,10 +25,10 @@ IRR depicts how many more customers purchased the product with the promotion, as
 NIR depicts how much is made (or lost) by sending out the promotion. Mathematically, this is 10 times the total number of purchasers that received the promotion minus 0.15 times the number of promotions sent out, minus 10 times the number of purchasers who were not given the promotion.
 
 ## File Description <a name="file"></a>
+    
+* **starbucks.ipynb**: The jupyter notebook [starbucks.ipynb](https://github.com/rahul385/Starbucks-Project/blob/master/starbucks.ipynb) includes data exploration, code, machine learning model and visualizations. I used the following classification algorithms to train the model and compared their accuracy.
 
 * **starbucks.html**: Profiling report of the dataset used for data exploration.
-       
-* **starbucks.ipynb**: Jupyter notebook that contains all code, visualizations and machine learning model.
 
 * **Visualizations**: This folder contains the package files.
     * `Invariant_Metric-Hypothesis_Test.png` : Plot for hypothesis test on invariant metric
