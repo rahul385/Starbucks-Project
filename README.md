@@ -30,7 +30,7 @@ NIR depicts how much is made (or lost) by sending out the promotion. Mathematica
 
 ## File Description <a name="file"></a>
     
-* **starbucks.ipynb**: The jupyter notebook [starbucks.ipynb](https://github.com/rahul385/Starbucks-Project/blob/master/Starbucks.ipynb) includes data exploration, code, machine learning model and visualizations. I used the following classification algorithms to train the model and compared their accuracy.
+* **starbucks.ipynb**: The jupyter notebook [starbucks.ipynb](https://github.com/rahul385/Starbucks-Project/blob/master/Starbucks.ipynb) includes data exploration, code, machine learning model and visualizations. I used XGBoost classification algorithms to train the model generated a higher NIR (Net Incremental Revenue) of $237.75.
 
 * **starbucks.html**: Profiling report of the dataset used for data exploration.
 
