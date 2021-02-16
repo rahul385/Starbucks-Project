@@ -11,7 +11,9 @@
 
 ## Installation <a name="installation"></a>
 
-All the librarires required to run the code are mentioned in [requirements.txt](https://github.com/rahul385/Starbucks-Project/blob/master/requirements.txt). To install Run: `pip install -r requirements.txt`
+All the librarires required to run the code are mentioned in [requirements.txt](https://github.com/rahul385/Starbucks-Project/blob/master/requirements.txt).
+
+To install Run: `pip install -r requirements.txt`
 
 ## Project Overview <a name="project"></a>
 This project was originally used as a take-home assignment provided by Starbucks for their job candidates. This exercise involves an advertising promotion that was tested to see if it would bring more customers to purchase a specific product priced at $10. It costs the company 0.15 to send out each promotion. Ideally, we want to limit that promotion only to those that are most receptive to the promotion.
